@@ -86,10 +86,20 @@ export default function ExteriorPainting() {
               Professional exterior painting services using weather-resistant materials 
               designed to withstand Illinois weather and protect your investment.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="accent" asChild>
-                <Link to="/get-estimate">Get Free Exterior Estimate</Link>
-              </Button>
+            <div className="flex flex-col gap-6 items-center">
+              <div>
+                <div id="3f2be4ce-f6a2-414c-95b4-8211aaed3546"></div>
+                <link 
+                  rel="stylesheet" 
+                  href="https://d3ey4dbjkt2f6s.cloudfront.net/assets/external/work_request_embed.css" 
+                  media="screen" 
+                />
+                <script 
+                  src="https://d3ey4dbjkt2f6s.cloudfront.net/assets/static_link/work_request_embed_snippet.js" 
+                  data-clienthub-id="3f2be4ce-f6a2-414c-95b4-8211aaed3546" 
+                  data-form-url="https://clienthub.getjobber.com/client_hubs/3f2be4ce-f6a2-414c-95b4-8211aaed3546/public/work_request/embedded_work_request_form"
+                ></script>
+              </div>
               <Button size="lg" variant="ghost" asChild className="text-white hover:bg-white/10">
                 <a href="tel:8154412517">Call (815) 441-2517</a>
               </Button>
@@ -252,10 +262,20 @@ export default function ExteriorPainting() {
           <p className="text-xl mb-8 text-primary-foreground/90">
             Quality exterior painting is an investment in your home's protection and curb appeal.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" variant="accent" asChild>
-              <Link to="/get-estimate">Get Your Exterior Estimate</Link>
-            </Button>
+          <div className="flex flex-col gap-6 items-center">
+            <div>
+              <div id="3f2be4ce-f6a2-414c-95b4-8211aaed3546"></div>
+              <link 
+                rel="stylesheet" 
+                href="https://d3ey4dbjkt2f6s.cloudfront.net/assets/external/work_request_embed.css" 
+                media="screen" 
+              />
+              <script 
+                src="https://d3ey4dbjkt2f6s.cloudfront.net/assets/static_link/work_request_embed_snippet.js" 
+                data-clienthub-id="3f2be4ce-f6a2-414c-95b4-8211aaed3546" 
+                data-form-url="https://clienthub.getjobber.com/client_hubs/3f2be4ce-f6a2-414c-95b4-8211aaed3546/public/work_request/embedded_work_request_form"
+              ></script>
+            </div>
             <Button size="lg" variant="ghost" asChild className="text-white hover:bg-white/10">
               <Link to="/pressure-washing">Add Pressure Washing</Link>
             </Button>

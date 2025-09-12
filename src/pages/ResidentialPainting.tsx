@@ -15,18 +15,18 @@ import {
 
 const services = [
   {
-    icon: Home,
-    title: "Interior Painting",
-    description: "Transform your living spaces with premium paints and expert color consultation.",
-    features: ["All rooms and surfaces", "Low-VOC paint options", "Color matching", "Trim & ceiling work"],
-    href: "/interior-painting"
-  },
-  {
     icon: Brush,
     title: "Exterior Painting",
     description: "Protect and beautify your home's exterior with weather-resistant finishes.",
     features: ["Siding, trim & doors", "Pressure washing prep", "Weather protection", "Warranty included"],
     href: "/exterior-painting"
+  },
+  {
+    icon: Home,
+    title: "Interior Painting",
+    description: "Transform your living spaces with premium paints and expert color consultation.",
+    features: ["All rooms and surfaces", "Low-VOC paint options", "Color matching", "Trim & ceiling work"],
+    href: "/interior-painting"
   },
   {
     icon: Palette,
@@ -85,10 +85,20 @@ export default function ResidentialPainting() {
               From single rooms to whole-home makeovers, we bring your vision to life with 
               exceptional craftsmanship and attention to detail.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="accent" asChild>
-                <Link to="/get-estimate">Get Free Estimate</Link>
-              </Button>
+            <div className="flex flex-col gap-6 items-center">
+              <div>
+                <div id="3f2be4ce-f6a2-414c-95b4-8211aaed3546"></div>
+                <link 
+                  rel="stylesheet" 
+                  href="https://d3ey4dbjkt2f6s.cloudfront.net/assets/external/work_request_embed.css" 
+                  media="screen" 
+                />
+                <script 
+                  src="https://d3ey4dbjkt2f6s.cloudfront.net/assets/static_link/work_request_embed_snippet.js" 
+                  data-clienthub-id="3f2be4ce-f6a2-414c-95b4-8211aaed3546" 
+                  data-form-url="https://clienthub.getjobber.com/client_hubs/3f2be4ce-f6a2-414c-95b4-8211aaed3546/public/work_request/embedded_work_request_form"
+                ></script>
+              </div>
               <Button size="lg" variant="ghost" asChild className="text-white hover:bg-white/10">
                 <a href="tel:8154412517">Call (815) 441-2517</a>
               </Button>
@@ -231,10 +241,20 @@ export default function ResidentialPainting() {
           <p className="text-xl mb-8 text-primary-foreground/90">
             Let's discuss your residential painting project and create a space you'll love coming home to.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" variant="accent" asChild>
-              <Link to="/get-estimate">Get Your Free Estimate</Link>
-            </Button>
+          <div className="flex flex-col gap-6 items-center">
+            <div>
+              <div id="3f2be4ce-f6a2-414c-95b4-8211aaed3546"></div>
+              <link 
+                rel="stylesheet" 
+                href="https://d3ey4dbjkt2f6s.cloudfront.net/assets/external/work_request_embed.css" 
+                media="screen" 
+              />
+              <script 
+                src="https://d3ey4dbjkt2f6s.cloudfront.net/assets/static_link/work_request_embed_snippet.js" 
+                data-clienthub-id="3f2be4ce-f6a2-414c-95b4-8211aaed3546" 
+                data-form-url="https://clienthub.getjobber.com/client_hubs/3f2be4ce-f6a2-414c-95b4-8211aaed3546/public/work_request/embedded_work_request_form"
+              ></script>
+            </div>
             <Button size="lg" variant="ghost" asChild className="text-white hover:bg-white/10">
               <Link to="/portfolio">View Our Portfolio</Link>
             </Button>
