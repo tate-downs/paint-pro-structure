@@ -6,6 +6,7 @@ import { Menu, Phone, Mail } from "lucide-react";
 
 const navigation = [
   { name: "Home", href: "/" },
+  { name: "About", href: "/about" },
   { name: "Residential", href: "/residential-painting" },
   { name: "Commercial", href: "/commercial" },
   { name: "Portfolio", href: "/portfolio" },
