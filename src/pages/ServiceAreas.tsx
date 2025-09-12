@@ -85,7 +85,7 @@ export default function ServiceAreas() {
                 <Link to="/get-estimate">Get Free Estimate</Link>
               </Button>
               <Button size="lg" variant="ghost" asChild className="text-white hover:bg-white/10">
-                <a href="tel:8154412517">Call (815) 441-2517</a>
+                <Link to="/get-estimate">Get Your Quote</Link>
               </Button>
             </div>
           </div>
@@ -229,10 +229,7 @@ export default function ServiceAreas() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="accent" size="lg" asChild>
-                <a href="tel:8154412517">
-                  <Phone className="h-5 w-5 mr-2" />
-                  Call to Ask About Your Area
-                </a>
+                <Link to="/get-estimate">Ask About Your Area</Link>
               </Button>
               <Button variant="outline" size="lg" asChild>
                 <Link to="/get-estimate">Submit Estimate Request</Link>
@@ -256,7 +253,7 @@ export default function ServiceAreas() {
               <Link to="/get-estimate">Get Free Local Estimate</Link>
             </Button>
             <Button size="lg" variant="ghost" asChild className="text-white hover:bg-white/10">
-              <a href="tel:8154412517">Call (815) 441-2517</a>
+              <Link to="/get-estimate">Get Your Quote</Link>
             </Button>
           </div>
         </div>

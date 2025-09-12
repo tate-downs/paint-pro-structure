@@ -100,7 +100,7 @@ export default function ResidentialPainting() {
                 ></script>
               </div>
               <Button size="lg" variant="ghost" asChild className="text-white hover:bg-white/10">
-                <a href="tel:8154412517">Call (815) 441-2517</a>
+                <Link to="/get-estimate">Get Your Quote</Link>
               </Button>
             </div>
           </div>

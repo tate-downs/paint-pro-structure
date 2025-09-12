@@ -86,7 +86,7 @@ export default function Commercial() {
                 <Link to="/get-estimate">Get Commercial Quote</Link>
               </Button>
               <Button size="lg" variant="ghost" asChild className="text-white hover:bg-white/10">
-                <a href="tel:8154412517">Call (815) 441-2517</a>
+                <Link to="/get-estimate">Get Your Quote</Link>
               </Button>
             </div>
           </div>
@@ -243,7 +243,7 @@ export default function Commercial() {
               <Link to="/get-estimate">Request Commercial Quote</Link>
             </Button>
             <Button size="lg" variant="ghost" asChild className="text-white hover:bg-white/10">
-              <a href="tel:8154412517">Call (815) 441-2517</a>
+              <Link to="/get-estimate">Contact Us Today</Link>
             </Button>
           </div>
         </div>

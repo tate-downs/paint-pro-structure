@@ -186,7 +186,7 @@ export default function FAQ() {
               <Link to="/get-estimate">Get Free Consultation</Link>
             </Button>
             <Button size="lg" variant="ghost" asChild className="text-white hover:bg-white/10">
-              <a href="tel:8154412517">Call (815) 441-2517</a>
+              <Link to="/get-estimate">Contact Us Today</Link>
             </Button>
           </div>
         </div>
