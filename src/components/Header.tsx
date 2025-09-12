@@ -32,9 +32,9 @@ export default function Header() {
                 <Phone className="h-4 w-4 mr-1" />
                 (815) 441-2517
               </a>
-              <a href="mailto:info@ttmpainting.com" className="flex items-center hover:text-accent transition-smooth">
+              <a href="mailto:tate@ttmpainting.com" className="flex items-center hover:text-accent transition-smooth">
                 <Mail className="h-4 w-4 mr-1" />
-                info@ttmpainting.com
+                tate@ttmpainting.com
               </a>
             </div>
             <div className="hidden md:flex items-center space-x-4">
@@ -53,6 +53,11 @@ export default function Header() {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <Link to="/" className="flex items-center">
+              <img 
+                src="/src/assets/ttm-logo.png" 
+                alt="TTM Painting Logo" 
+                className="h-12 w-12 mr-3"
+              />
               <div className="text-2xl font-bold text-primary">
                 TTM <span className="text-accent">Painting</span>
               </div>

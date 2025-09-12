@@ -18,22 +18,16 @@ import {
 
 const services = [
   {
-    icon: HomeIcon,
-    title: "Interior Painting",
-    description: "Transform your living spaces with professional interior painting services.",
-    href: "/interior-painting"
-  },
-  {
     icon: Building,
     title: "Exterior Painting",
     description: "Protect and beautify your home's exterior with quality paints and finishes.",
     href: "/exterior-painting"
   },
   {
-    icon: Brush,
-    title: "Cabinet Refinishing",
-    description: "Give your kitchen a fresh new look with professional cabinet painting.",
-    href: "/cabinet-painting"
+    icon: HomeIcon,
+    title: "Interior Painting",
+    description: "Transform your living spaces with professional interior painting services.",
+    href: "/interior-painting"
   },
   {
     icon: Fence,
@@ -154,7 +148,7 @@ export default function Home() {
             <div className="flex items-center justify-center">
               <Users className="h-8 w-8 text-success mr-3" />
               <div>
-                <div className="font-semibold">500+ Happy Customers</div>
+                <div className="font-semibold">30+ Homes Painted</div>
                 <div className="text-sm text-muted-foreground">Throughout Sterling & surrounding areas</div>
               </div>
             </div>
@@ -168,10 +162,10 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Painting Services</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              From interior transformations to exterior protection, we deliver exceptional results for every project.
+              From exterior transformations to interior perfection, we deliver exceptional results for every project.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
             {services.map((service, index) => (
               <Card key={index} className="shadow-soft hover:shadow-medium transition-smooth">
                 <CardContent className="p-6">
@@ -188,8 +182,116 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Process Section */}
+      {/* Portfolio Section */}
       <section className="bg-muted py-20">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Recent Work</h2>
+            <p className="text-xl text-muted-foreground">
+              See the amazing transformations we've completed for homeowners throughout Sterling and surrounding areas.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* Project 1 */}
+            <div className="bg-background rounded-lg shadow-medium overflow-hidden">
+              <div className="grid grid-cols-2 gap-0">
+                <div className="relative aspect-square">
+                  <img 
+                    src="/src/assets/blue-house-after.jpg" 
+                    alt="Beautiful blue house exterior after painting"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute top-2 left-2 bg-success text-success-foreground px-2 py-1 rounded text-sm font-semibold">
+                    AFTER
+                  </div>
+                </div>
+                <div className="relative aspect-square">
+                  <img 
+                    src="/src/assets/blue-house-before.jpg" 
+                    alt="House exterior before painting transformation"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute top-2 left-2 bg-muted text-muted-foreground px-2 py-1 rounded text-sm font-semibold">
+                    BEFORE
+                  </div>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">Complete Exterior Transformation</h3>
+                <p className="text-muted-foreground">Full exterior painting with premium Sherwin-Williams paint, transforming this home with a beautiful blue color scheme.</p>
+              </div>
+            </div>
+
+            {/* Project 2 */}
+            <div className="bg-background rounded-lg shadow-medium overflow-hidden">
+              <div className="grid grid-cols-2 gap-0">
+                <div className="relative aspect-square">
+                  <img 
+                    src="/src/assets/beige-house-after.jpg" 
+                    alt="Modern beige house exterior after professional painting"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute top-2 left-2 bg-success text-success-foreground px-2 py-1 rounded text-sm font-semibold">
+                    AFTER
+                  </div>
+                </div>
+                <div className="relative aspect-square">
+                  <img 
+                    src="/src/assets/beige-house-before.jpg" 
+                    alt="House exterior before professional painting service"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute top-2 left-2 bg-muted text-muted-foreground px-2 py-1 rounded text-sm font-semibold">
+                    BEFORE
+                  </div>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">Modern Ranch Style Update</h3>
+                <p className="text-muted-foreground">Fresh exterior paint job bringing this ranch home into the modern era with clean lines and contemporary colors.</p>
+              </div>
+            </div>
+
+            {/* Project 3 */}
+            <div className="bg-background rounded-lg shadow-medium overflow-hidden lg:col-span-2 lg:max-w-2xl lg:mx-auto">
+              <div className="grid grid-cols-2 gap-0">
+                <div className="relative aspect-square">
+                  <img 
+                    src="/src/assets/green-garage-after.jpg" 
+                    alt="Freshly painted green garage exterior"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute top-2 left-2 bg-success text-success-foreground px-2 py-1 rounded text-sm font-semibold">
+                    AFTER
+                  </div>
+                </div>
+                <div className="relative aspect-square">
+                  <img 
+                    src="/src/assets/green-garage-before.jpg" 
+                    alt="Weathered garage before painting restoration"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute top-2 left-2 bg-muted text-muted-foreground px-2 py-1 rounded text-sm font-semibold">
+                    BEFORE
+                  </div>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">Garage Restoration Project</h3>
+                <p className="text-muted-foreground">Complete restoration of weathered garage with professional surface prep and high-quality exterior paint for long-lasting protection.</p>
+              </div>
+            </div>
+          </div>
+          <div className="text-center mt-12">
+            <Button size="lg" variant="default" asChild>
+              <Link to="/get-estimate">Start Your Transformation Today</Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Process Section */}
+      <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Proven Process</h2>
@@ -242,7 +344,7 @@ export default function Home() {
       </section>
 
       {/* Jobber Form Section */}
-      <section className="bg-muted py-20">
+      <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
