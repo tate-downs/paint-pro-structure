@@ -30,17 +30,17 @@ const services = [
   },
   {
     icon: Palette,
-    title: "Cabinet Refinishing",
-    description: "Give your kitchen a fresh new look without the cost of replacement.",
-    features: ["On-site spray finish", "Hardware updates", "Color transformation", "Durable coating"],
-    href: "/cabinet-painting"
+    title: "Deck & Fence Staining",
+    description: "Protect and beautify your outdoor wood structures with premium stains.",
+    features: ["Weather protection", "UV resistance", "Water sealing", "Long-lasting finish"],
+    href: "/deck-fence-staining"
   },
   {
     icon: Sparkles,
-    title: "Specialty Finishes",
-    description: "Custom textures, accent walls, and decorative painting techniques.",
-    features: ["Textured walls", "Accent features", "Faux finishes", "Design consultation"],
-    href: "/color-consultation"
+    title: "Power Washing",
+    description: "Professional cleaning to prepare surfaces for painting or restore their original beauty.",
+    features: ["House washing", "Driveway cleaning", "Deck preparation", "Pre-paint cleaning"],
+    href: "/power-washing"
   }
 ];
 

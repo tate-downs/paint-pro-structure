@@ -141,107 +141,37 @@ export default function InteriorPainting() {
         </div>
       </section>
 
-      {/* Pricing Guide */}
+      {/* Quality Promise */}
       <section className="py-20">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Interior Painting Pricing</h2>
-              <p className="text-xl text-muted-foreground">
-                Transparent pricing based on room size and project scope. All estimates include materials and labor.
-              </p>
-            </div>
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Why Choose TTM for Interior Painting?</h2>
+            <p className="text-xl text-muted-foreground mb-12">
+              Quality craftsmanship with Sherwin Williams paints, backed by our 1-3 year warranty.
+            </p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <Card className="shadow-soft">
-                <CardHeader>
-                  <CardTitle>Standard Room</CardTitle>
-                  <div className="text-2xl font-bold text-accent">$800-1,200</div>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-2 text-sm">
-                    <li className="flex items-center">
-                      <CheckCircle className="h-4 w-4 text-success mr-2" />
-                      12x12 room average
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="h-4 w-4 text-success mr-2" />
-                      2 coats premium paint
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="h-4 w-4 text-success mr-2" />
-                      Basic prep work
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="h-4 w-4 text-success mr-2" />
-                      Trim painting included
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-
-              <Card className="shadow-soft border-accent">
-                <CardHeader>
-                  <CardTitle>Large Room</CardTitle>
-                  <div className="text-2xl font-bold text-accent">$1,200-1,800</div>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-2 text-sm">
-                    <li className="flex items-center">
-                      <CheckCircle className="h-4 w-4 text-success mr-2" />
-                      15x18 room average
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="h-4 w-4 text-success mr-2" />
-                      Premium paint & primer
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="h-4 w-4 text-success mr-2" />
-                      Detailed prep work
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="h-4 w-4 text-success mr-2" />
-                      Ceiling painting included
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-
-              <Card className="shadow-soft">
-                <CardHeader>
-                  <CardTitle>Whole Home Interior</CardTitle>
-                  <div className="text-2xl font-bold text-accent">$4,500-8,000</div>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-2 text-sm">
-                    <li className="flex items-center">
-                      <CheckCircle className="h-4 w-4 text-success mr-2" />
-                      3-4 bedroom home
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="h-4 w-4 text-success mr-2" />
-                      All walls & ceilings
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="h-4 w-4 text-success mr-2" />
-                      Complete prep work
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="h-4 w-4 text-success mr-2" />
-                      Color consultation included
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-            </div>
-            
-            <div className="text-center mt-8">
-              <p className="text-muted-foreground mb-4">
-                Pricing varies based on room condition, paint selection, and additional services.
-              </p>
-              <Button variant="accent" size="lg" asChild>
-                <Link to="/get-estimate">Get Exact Quote for Your Project</Link>
-              </Button>
+              <div className="text-center">
+                <div className="bg-accent/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Palette className="h-8 w-8 text-accent" />
+                </div>
+                <h3 className="text-lg font-semibold mb-2">Expert Color Consultation</h3>
+                <p className="text-muted-foreground text-sm">Professional guidance to choose the perfect colors for your space</p>
+              </div>
+              <div className="text-center">
+                <div className="bg-accent/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Shield className="h-8 w-8 text-accent" />
+                </div>
+                <h3 className="text-lg font-semibold mb-2">Premium Materials</h3>
+                <p className="text-muted-foreground text-sm">Exclusively Sherwin Williams paints for superior coverage and durability</p>
+              </div>
+              <div className="text-center">
+                <div className="bg-accent/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Clock className="h-8 w-8 text-accent" />
+                </div>
+                <h3 className="text-lg font-semibold mb-2">1-3 Year Warranty</h3>
+                <p className="text-muted-foreground text-sm">Guaranteed quality and peace of mind with comprehensive warranty coverage</p>
+              </div>
             </div>
           </div>
         </div>

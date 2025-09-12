@@ -7,12 +7,9 @@ import { Menu, Phone, Mail } from "lucide-react";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "Residential", href: "/residential-painting" },
-  { name: "Commercial", href: "/commercial-painting" },
+  { name: "Commercial", href: "/commercial" },
   { name: "Portfolio", href: "/portfolio" },
-  { name: "Pricing", href: "/pricing" },
-  { name: "About", href: "/about" },
   { name: "Service Areas", href: "/service-areas" },
-  { name: "Reviews", href: "/reviews" },
   { name: "FAQs", href: "/faqs" },
   { name: "Contact", href: "/get-estimate" },
 ];

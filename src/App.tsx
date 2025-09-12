@@ -9,6 +9,12 @@ import GetEstimate from "./pages/GetEstimate";
 import ResidentialPainting from "./pages/ResidentialPainting";
 import InteriorPainting from "./pages/InteriorPainting";
 import ExteriorPainting from "./pages/ExteriorPainting";
+import DeckFenceStaining from "./pages/DeckFenceStaining";
+import PowerWashing from "./pages/PowerWashing";
+import FAQ from "./pages/FAQ";
+import Commercial from "./pages/Commercial";
+import ServiceAreas from "./pages/ServiceAreas";
+import Portfolio from "./pages/Portfolio";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +32,12 @@ const App = () => (
             <Route path="/residential-painting" element={<ResidentialPainting />} />
             <Route path="/interior-painting" element={<InteriorPainting />} />
             <Route path="/exterior-painting" element={<ExteriorPainting />} />
+            <Route path="/deck-fence-staining" element={<DeckFenceStaining />} />
+            <Route path="/power-washing" element={<PowerWashing />} />
+            <Route path="/faqs" element={<FAQ />} />
+            <Route path="/commercial" element={<Commercial />} />
+            <Route path="/service-areas" element={<ServiceAreas />} />
+            <Route path="/portfolio" element={<Portfolio />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

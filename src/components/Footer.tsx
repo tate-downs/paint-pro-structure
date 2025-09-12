@@ -24,8 +24,8 @@ export default function Footer() {
               </div>
               <div className="flex items-center">
                 <Mail className="h-4 w-4 mr-2" />
-                <a href="mailto:info@ttmpainting.com" className="hover:text-accent transition-smooth">
-                  info@ttmpainting.com
+                <a href="mailto:tate@ttmpainting.com" className="hover:text-accent transition-smooth">
+                  tate@ttmpainting.com
                 </a>
               </div>
             </div>
@@ -37,9 +37,9 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li><Link to="/interior-painting" className="hover:text-accent transition-smooth">Interior Painting</Link></li>
               <li><Link to="/exterior-painting" className="hover:text-accent transition-smooth">Exterior Painting</Link></li>
-              <li><Link to="/cabinet-painting" className="hover:text-accent transition-smooth">Cabinet Refinishing</Link></li>
               <li><Link to="/deck-fence-staining" className="hover:text-accent transition-smooth">Deck & Fence Staining</Link></li>
-              <li><Link to="/pressure-washing" className="hover:text-accent transition-smooth">Pressure Washing</Link></li>
+              <li><Link to="/power-washing" className="hover:text-accent transition-smooth">Power Washing</Link></li>
+              <li><Link to="/commercial" className="hover:text-accent transition-smooth">Commercial Painting</Link></li>
             </ul>
           </div>
 
@@ -49,7 +49,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li><Link to="/about" className="hover:text-accent transition-smooth">About Us</Link></li>
               <li><Link to="/portfolio" className="hover:text-accent transition-smooth">Portfolio</Link></li>
-              <li><Link to="/reviews" className="hover:text-accent transition-smooth">Reviews</Link></li>
+              
               <li><Link to="/service-areas" className="hover:text-accent transition-smooth">Service Areas</Link></li>
               <li><Link to="/faqs" className="hover:text-accent transition-smooth">FAQs</Link></li>
             </ul>
