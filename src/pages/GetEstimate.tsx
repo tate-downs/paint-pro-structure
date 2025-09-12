@@ -116,7 +116,7 @@ export default function GetEstimate() {
                   <div>
                     <div className="font-medium">Service Area</div>
                     <div className="text-sm text-muted-foreground">
-                      Sterling, Rock Falls, Dixon, Morrison, Erie & surrounding areas
+                      Rock Island to Chicago suburbs, Galena to Champaign & all areas in between
                     </div>
                   </div>
                 </div>
