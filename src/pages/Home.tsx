@@ -373,7 +373,7 @@ export default function Home() {
             Experience the TTM Painting Difference
           </h2>
           <p className="text-xl mb-8 text-primary-foreground/90">
-            Join hundreds of satisfied customers in Sterling, Rock Falls, Dixon, and beyond.
+            Join 30+ satisfied customers in Sterling, Rock Falls, Dixon, and beyond.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="accent" asChild>
