@@ -113,7 +113,7 @@ export default function Home() {
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90">
               Transform your home with quality craftsmanship, premium materials, 
-              and a 2-year workmanship warranty you can trust.
+              and a 1-3 year workmanship warranty you can trust.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="accent" asChild>
@@ -141,7 +141,7 @@ export default function Home() {
             <div className="flex items-center justify-center">
               <Award className="h-8 w-8 text-success mr-3" />
               <div>
-                <div className="font-semibold">2-Year Warranty</div>
+                <div className="font-semibold">1-3 Year Warranty</div>
                 <div className="text-sm text-muted-foreground">Guaranteed workmanship quality</div>
               </div>
             </div>
@@ -197,22 +197,22 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-0">
                 <div className="relative aspect-square">
                   <img 
-                    src="/src/assets/blue-house-after.jpg" 
-                    alt="Beautiful blue house exterior after painting"
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute top-2 left-2 bg-success text-success-foreground px-2 py-1 rounded text-sm font-semibold">
-                    AFTER
-                  </div>
-                </div>
-                <div className="relative aspect-square">
-                  <img 
                     src="/src/assets/blue-house-before.jpg" 
                     alt="House exterior before painting transformation"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute top-2 left-2 bg-muted text-muted-foreground px-2 py-1 rounded text-sm font-semibold">
                     BEFORE
+                  </div>
+                </div>
+                <div className="relative aspect-square">
+                  <img 
+                    src="/src/assets/blue-house-after.jpg" 
+                    alt="Beautiful blue house exterior after painting"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute top-2 left-2 bg-success text-success-foreground px-2 py-1 rounded text-sm font-semibold">
+                    AFTER
                   </div>
                 </div>
               </div>
@@ -227,22 +227,22 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-0">
                 <div className="relative aspect-square">
                   <img 
-                    src="/src/assets/beige-house-after.jpg" 
-                    alt="Modern beige house exterior after professional painting"
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute top-2 left-2 bg-success text-success-foreground px-2 py-1 rounded text-sm font-semibold">
-                    AFTER
-                  </div>
-                </div>
-                <div className="relative aspect-square">
-                  <img 
                     src="/src/assets/beige-house-before.jpg" 
                     alt="House exterior before professional painting service"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute top-2 left-2 bg-muted text-muted-foreground px-2 py-1 rounded text-sm font-semibold">
                     BEFORE
+                  </div>
+                </div>
+                <div className="relative aspect-square">
+                  <img 
+                    src="/src/assets/beige-house-after.jpg" 
+                    alt="Modern beige house exterior after professional painting"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute top-2 left-2 bg-success text-success-foreground px-2 py-1 rounded text-sm font-semibold">
+                    AFTER
                   </div>
                 </div>
               </div>
@@ -257,22 +257,22 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-0">
                 <div className="relative aspect-square">
                   <img 
-                    src="/src/assets/green-garage-after.jpg" 
-                    alt="Freshly painted green garage exterior"
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute top-2 left-2 bg-success text-success-foreground px-2 py-1 rounded text-sm font-semibold">
-                    AFTER
-                  </div>
-                </div>
-                <div className="relative aspect-square">
-                  <img 
                     src="/src/assets/green-garage-before.jpg" 
                     alt="Weathered garage before painting restoration"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute top-2 left-2 bg-muted text-muted-foreground px-2 py-1 rounded text-sm font-semibold">
                     BEFORE
+                  </div>
+                </div>
+                <div className="relative aspect-square">
+                  <img 
+                    src="/src/assets/green-garage-after.jpg" 
+                    alt="Freshly painted green garage exterior"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute top-2 left-2 bg-success text-success-foreground px-2 py-1 rounded text-sm font-semibold">
+                    AFTER
                   </div>
                 </div>
               </div>
