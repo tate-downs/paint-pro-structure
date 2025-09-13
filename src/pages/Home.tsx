@@ -108,8 +108,8 @@ export default function Home() {
               </Badge>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Transform Your Home with 
-              <span className="text-accent"> Professional Painting</span>
+              Professional Painting Services in 
+              <span className="text-accent"> Sterling, IL</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90">
               Transform your home with quality craftsmanship, premium materials, 
