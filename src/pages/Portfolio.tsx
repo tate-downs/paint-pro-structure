@@ -142,7 +142,7 @@ export default function Portfolio() {
           
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
-              <div className="text-4xl font-bold text-accent mb-2">30+</div>
+              <div className="text-4xl font-bold text-accent mb-2">50+</div>
               <div className="text-muted-foreground">Homes Painted</div>
             </div>
             <div className="text-center">

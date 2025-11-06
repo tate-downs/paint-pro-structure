@@ -148,7 +148,7 @@ export default function Home() {
             <div className="flex items-center justify-center">
               <Users className="h-8 w-8 text-success mr-3" />
               <div>
-                <div className="font-semibold">30+ Homes Painted</div>
+                <div className="font-semibold">50+ Homes Painted</div>
                 <div className="text-sm text-muted-foreground">Throughout Chicago suburbs & surrounding areas</div>
               </div>
             </div>
@@ -373,7 +373,7 @@ export default function Home() {
             Experience the TTM Painting Difference
           </h2>
           <p className="text-xl mb-8 text-primary-foreground/90">
-            Join 30+ satisfied customers throughout the Chicago suburbs and surrounding areas.
+            Join 50+ satisfied customers throughout the Chicago suburbs and surrounding areas.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="accent" asChild>

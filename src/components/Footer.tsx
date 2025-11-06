@@ -69,7 +69,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center text-sm">
                 <Users className="h-4 w-4 mr-2 text-success" />
-                30+ Happy Customers
+                50+ Happy Customers
               </div>
             </div>
           </div>
