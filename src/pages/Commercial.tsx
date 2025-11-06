@@ -172,8 +172,8 @@ export default function Commercial() {
             </Card>
             <Card className="text-center shadow-soft border-accent">
               <CardContent className="p-6">
-                <h3 className="text-lg font-semibold mb-2">Based in Sterling</h3>
-                <p className="text-muted-foreground text-sm">Central location for efficient service</p>
+                <h3 className="text-lg font-semibold mb-2">Serving Chicago Suburbs</h3>
+                <p className="text-muted-foreground text-sm">Convenient location for efficient service</p>
               </CardContent>
             </Card>
             <Card className="text-center shadow-soft">

@@ -14,7 +14,7 @@ export default function Footer() {
             <div className="space-y-2 text-sm">
               <div className="flex items-center">
                 <MapPin className="h-4 w-4 mr-2" />
-                Sterling, IL & Surrounding Areas
+                Chicago Suburbs & Surrounding Areas
               </div>
               <div className="flex items-center">
                 <Phone className="h-4 w-4 mr-2" />

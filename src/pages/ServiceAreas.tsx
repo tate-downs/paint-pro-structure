@@ -18,9 +18,9 @@ const mainAreas = [
     description: "Quad Cities area and surrounding communities"
   },
   {
-    region: "North Central Illinois", 
-    cities: ["Sterling", "Rock Falls", "Dixon", "Oregon", "Mount Morris"],
-    description: "Our home base and primary service area"
+    region: "Chicago Suburbs", 
+    cities: ["Naperville", "Aurora", "Joliet", "Schaumburg", "Palatine"],
+    description: "Our primary service area"
   },
   {
     region: "Northern Illinois",
@@ -77,8 +77,7 @@ export default function ServiceAreas() {
               <span className="text-accent"> Statewide</span>
             </h1>
             <p className="text-xl mb-8 text-primary-foreground/90">
-              Based in Sterling, we provide professional painting services across a large region of Illinois, 
-              from Rock Island to the Chicago suburbs and from Galena down to Champaign.
+              Based in the Chicago suburbs, we provide professional painting services throughout the greater Chicago area and surrounding Illinois communities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="accent" asChild>
@@ -98,7 +97,7 @@ export default function ServiceAreas() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Where We Serve</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Extensive coverage area throughout Illinois, with our central Sterling location allowing efficient service to communities across the state.
+              Extensive coverage area throughout the Chicago suburbs and surrounding Illinois communities.
             </p>
           </div>
           
@@ -159,7 +158,7 @@ export default function ServiceAreas() {
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Our Location Works for You</h2>
               <p className="text-xl text-muted-foreground">
-                Sterling's central location allows us to efficiently serve communities across Illinois.
+                Our Chicago suburbs location allows us to efficiently serve communities throughout the area.
               </p>
             </div>
             
@@ -170,7 +169,7 @@ export default function ServiceAreas() {
                   <li className="flex items-start">
                     <CheckCircle className="h-5 w-5 text-success mr-3 mt-1 flex-shrink-0" />
                     <div>
-                      <span className="font-semibold">Central Illinois Base:</span> Sterling location provides efficient travel to all service areas
+                      <span className="font-semibold">Chicago Suburbs Base:</span> Convenient location provides efficient service to all areas
                     </div>
                   </li>
                   <li className="flex items-start">
@@ -208,8 +207,8 @@ export default function ServiceAreas() {
                       <div className="text-muted-foreground">Galena → Champaign</div>
                     </div>
                     <div className="bg-accent/5 p-4 rounded-lg mt-6">
-                      <div className="font-semibold text-accent">Headquarters</div>
-                      <div className="text-muted-foreground">Sterling, Illinois</div>
+                      <div className="font-semibold text-accent">Service Area</div>
+                      <div className="text-muted-foreground">Chicago Suburbs, Illinois</div>
                     </div>
                   </div>
                 </CardContent>

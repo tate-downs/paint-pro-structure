@@ -54,7 +54,7 @@ const generalFAQs = [
   },
   {
     question: "What areas do you serve?",
-    answer: "We serve a large area throughout Illinois, from Rock Island to the Chicago suburbs, and from Galena down to Champaign. While we're based in Sterling, we're happy to travel for quality projects throughout this region."
+    answer: "We primarily serve the Chicago suburbs and surrounding areas throughout Illinois. We're happy to travel for quality projects throughout the region."
   },
   {
     question: "How many homes have you painted?",

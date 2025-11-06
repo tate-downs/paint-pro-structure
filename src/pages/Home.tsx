@@ -69,7 +69,7 @@ const processSteps = [
 const testimonials = [
   {
     name: "Sarah Johnson",
-    location: "Sterling, IL",
+    location: "Chicago Suburbs",
     text: "TTM Painting transformed our home inside and out. Professional, clean, and the results exceeded our expectations!",
     rating: 5
   },
@@ -109,7 +109,7 @@ export default function Home() {
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Professional Painting Services in 
-              <span className="text-accent"> Sterling, IL</span>
+              <span className="text-accent"> Chicago Suburbs</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90">
               Transform your home with quality craftsmanship, premium materials, 
@@ -149,7 +149,7 @@ export default function Home() {
               <Users className="h-8 w-8 text-success mr-3" />
               <div>
                 <div className="font-semibold">30+ Homes Painted</div>
-                <div className="text-sm text-muted-foreground">Throughout Sterling & surrounding areas</div>
+                <div className="text-sm text-muted-foreground">Throughout Chicago suburbs & surrounding areas</div>
               </div>
             </div>
           </div>
@@ -188,7 +188,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Recent Work</h2>
             <p className="text-xl text-muted-foreground">
-              See the amazing transformations we've completed for homeowners throughout Sterling and surrounding areas.
+              See the amazing transformations we've completed for homeowners throughout the Chicago suburbs and surrounding areas.
             </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -319,7 +319,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">What Our Customers Say</h2>
             <p className="text-xl text-muted-foreground">
-              Don't just take our word for it - hear from satisfied customers across Sterling and surrounding areas.
+              Don't just take our word for it - hear from satisfied customers across the Chicago suburbs and surrounding areas.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -373,7 +373,7 @@ export default function Home() {
             Experience the TTM Painting Difference
           </h2>
           <p className="text-xl mb-8 text-primary-foreground/90">
-            Join 30+ satisfied customers in Sterling, Rock Falls, Dixon, and beyond.
+            Join 30+ satisfied customers throughout the Chicago suburbs and surrounding areas.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="accent" asChild>
