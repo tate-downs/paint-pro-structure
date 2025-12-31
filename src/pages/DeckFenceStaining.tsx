@@ -193,23 +193,18 @@ export default function DeckFenceStaining() {
           <p className="text-xl mb-8 text-primary-foreground/90">
             Get professional staining services that extend the life and beauty of your outdoor structures.
           </p>
-          <div className="flex flex-col gap-6 items-center">
-            <div>
-              <div id="3f2be4ce-f6a2-414c-95b4-8211aaed3546"></div>
-              <link 
-                rel="stylesheet" 
-                href="https://d3ey4dbjkt2f6s.cloudfront.net/assets/external/work_request_embed.css" 
-                media="screen" 
-              />
-              <script 
-                src="https://d3ey4dbjkt2f6s.cloudfront.net/assets/static_link/work_request_embed_snippet.js" 
-                data-clienthub-id="3f2be4ce-f6a2-414c-95b4-8211aaed3546" 
-                data-form-url="https://clienthub.getjobber.com/client_hubs/3f2be4ce-f6a2-414c-95b4-8211aaed3546/public/work_request/embedded_work_request_form"
-              ></script>
-            </div>
-            <Button size="lg" variant="ghost" asChild className="text-white hover:bg-white/10">
-              <Link to="/get-estimate">Get Your Quote</Link>
-            </Button>
+          <div>
+            <div id="3f2be4ce-f6a2-414c-95b4-8211aaed3546"></div>
+            <link 
+              rel="stylesheet" 
+              href="https://d3ey4dbjkt2f6s.cloudfront.net/assets/external/work_request_embed.css" 
+              media="screen" 
+            />
+            <script 
+              src="https://d3ey4dbjkt2f6s.cloudfront.net/assets/static_link/work_request_embed_snippet.js" 
+              data-clienthub-id="3f2be4ce-f6a2-414c-95b4-8211aaed3546" 
+              data-form-url="https://clienthub.getjobber.com/client_hubs/3f2be4ce-f6a2-414c-95b4-8211aaed3546/public/work_request/embedded_work_request_form"
+            ></script>
           </div>
         </div>
       </section>

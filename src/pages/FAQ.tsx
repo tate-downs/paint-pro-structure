@@ -22,8 +22,8 @@ const exteriorFAQs = [
     answer: "Sherwin Williams offers superior quality, durability, and color retention compared to other brands. Their paints are specifically formulated to withstand harsh Midwest weather conditions. We've tested many brands over the years, and Sherwin Williams consistently delivers the best long-term results for our clients."
   },
   {
-    question: "Do you provide power washing before painting?",
-    answer: "Yes! Power washing is included in our exterior painting prep process. Clean surfaces are essential for proper paint adhesion and longevity. We also offer standalone power washing services for decks, driveways, and other surfaces."
+    question: "Do you provide pressure washing before painting?",
+    answer: "Yes! A light pressure wash is included in our exterior painting prep process. Clean surfaces are essential for proper paint adhesion and longevity. We hand-whip any built-up grime to avoid damaging wood surfaces."
   },
   {
     question: "How long does exterior painting take?",
@@ -58,7 +58,7 @@ const generalFAQs = [
   },
   {
     question: "How many homes have you painted?",
-    answer: "We've successfully completed over 30 homes and continue to grow our satisfied customer base. Each project receives the same attention to detail and commitment to quality that has built our reputation in the area."
+    answer: "We've successfully completed over 50 homes and continue to grow our satisfied customer base. Each project receives the same attention to detail and commitment to quality that has built our reputation in the area."
   }
 ];
 

@@ -12,8 +12,7 @@ import {
   Home as HomeIcon,
   Building,
   Brush,
-  Fence,
-  Droplets
+  Fence
 } from "lucide-react";
 
 const services = [
@@ -34,12 +33,6 @@ const services = [
     title: "Deck & Fence Staining",
     description: "Preserve and enhance your outdoor wood surfaces with quality stains.",
     href: "/deck-fence-staining"
-  },
-  {
-    icon: Droplets,
-    title: "Pressure Washing",
-    description: "Prepare surfaces and restore cleanliness with professional pressure washing.",
-    href: "/pressure-washing"
   }
 ];
 
