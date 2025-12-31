@@ -16,28 +16,32 @@ const projects = [
     description: "Complete exterior transformation with premium Sherwin Williams paint, featuring fresh white siding and black trim accents.",
     beforeImage: whiteHouseBefore,
     afterImage: whiteHouseAfter,
-    services: ["Exterior Painting", "Surface Prep", "Trim Work"]
+    services: ["Exterior Painting", "Surface Prep", "Trim Work"],
+    afterImageClass: "object-top"
   },
   {
     title: "Classic Blue Colonial",
     description: "Beautiful blue exterior with crisp white trim, showcasing the timeless appeal of quality Sherwin Williams products.",
     beforeImage: blueHouseBefore,
     afterImage: blueHouseAfter,
-    services: ["Exterior Painting", "Trim Painting", "Surface Preparation"]
+    services: ["Exterior Painting", "Trim Painting", "Surface Preparation"],
+    afterImageClass: "object-center"
   },
   {
     title: "Warm Beige Traditional",
     description: "Elegant beige exterior painting that enhanced this home's curb appeal and protected the siding for years to come.",
     beforeImage: beigeHouseBefore,
     afterImage: beigeHouseAfter,
-    services: ["Exterior Painting", "Color Consultation", "Surface Prep"]
+    services: ["Exterior Painting", "Color Consultation", "Surface Prep"],
+    afterImageClass: "object-center"
   },
   {
     title: "Fresh Green Garage",
     description: "Garage transformation with durable green paint that complements the home's exterior and withstands daily use.",
     beforeImage: greenGarageBefore,
     afterImage: greenGarageAfter,
-    services: ["Garage Painting", "Surface Prep", "Protective Coating"]
+    services: ["Garage Painting", "Surface Prep", "Protective Coating"],
+    afterImageClass: "object-center"
   }
 ];
 
@@ -114,7 +118,7 @@ export default function Portfolio() {
                       <img 
                         src={project.afterImage} 
                         alt={`${project.title} - After`}
-                        className="w-full h-[400px] object-cover object-center"
+                        className={`w-full h-[400px] object-cover ${project.afterImageClass || 'object-center'}`}
                       />
                       <div className="absolute top-4 left-4">
                         <Badge variant="default" className="bg-success text-success-foreground">
