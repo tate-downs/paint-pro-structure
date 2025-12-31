@@ -16,7 +16,7 @@ const projects = [
     description: "Complete exterior transformation with premium Sherwin Williams paint, featuring fresh white siding and black trim accents.",
     beforeImage: whiteHouseBefore,
     afterImage: whiteHouseAfter,
-    services: ["Exterior Painting", "Power Washing", "Trim Work"]
+    services: ["Exterior Painting", "Surface Prep", "Trim Work"]
   },
   {
     title: "Classic Blue Colonial",
@@ -30,7 +30,7 @@ const projects = [
     description: "Elegant beige exterior painting that enhanced this home's curb appeal and protected the siding for years to come.",
     beforeImage: beigeHouseBefore,
     afterImage: beigeHouseAfter,
-    services: ["Exterior Painting", "Color Consultation", "Power Washing"]
+    services: ["Exterior Painting", "Color Consultation", "Surface Prep"]
   },
   {
     title: "Fresh Green Garage",
@@ -56,7 +56,7 @@ export default function Portfolio() {
               <span className="text-accent"> Across Illinois</span>
             </h1>
             <p className="text-xl mb-8 text-primary-foreground/90">
-              See the quality and craftsmanship that has made TTM Painting the choice for over 30 Illinois homeowners. 
+              See the quality and craftsmanship that has made TTM Painting the choice for over 50 Illinois homeowners. 
               Every project showcases our commitment to excellence with Sherwin Williams paints.
             </p>
             <Button size="lg" variant="accent" asChild>
@@ -92,33 +92,33 @@ export default function Portfolio() {
                 </div>
                 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                  {/* After Image */}
+                  {/* Before Image */}
                   <div className="order-1">
-                    <div className="relative">
+                    <div className="relative overflow-hidden rounded-lg shadow-medium">
                       <img 
-                        src={project.afterImage} 
-                        alt={`${project.title} - After`}
-                        className="w-full h-[400px] object-cover rounded-lg shadow-medium"
+                        src={project.beforeImage} 
+                        alt={`${project.title} - Before`}
+                        className="w-full h-[400px] object-cover object-center"
                       />
                       <div className="absolute top-4 left-4">
-                        <Badge variant="default" className="bg-success text-success-foreground">
-                          After
+                        <Badge variant="outline" className="bg-background/80">
+                          Before
                         </Badge>
                       </div>
                     </div>
                   </div>
                   
-                  {/* Before Image */}
+                  {/* After Image */}
                   <div className="order-2">
-                    <div className="relative">
+                    <div className="relative overflow-hidden rounded-lg shadow-medium">
                       <img 
-                        src={project.beforeImage} 
-                        alt={`${project.title} - Before`}
-                        className="w-full h-[400px] object-cover rounded-lg shadow-medium opacity-80"
+                        src={project.afterImage} 
+                        alt={`${project.title} - After`}
+                        className="w-full h-[400px] object-cover object-center"
                       />
                       <div className="absolute top-4 left-4">
-                        <Badge variant="outline" className="bg-background/80">
-                          Before
+                        <Badge variant="default" className="bg-success text-success-foreground">
+                          After
                         </Badge>
                       </div>
                     </div>

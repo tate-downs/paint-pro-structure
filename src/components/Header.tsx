@@ -30,9 +30,9 @@ export default function Header() {
                 <Phone className="h-4 w-4 mr-1" />
                 (815) 441-2517
               </a>
-              <a href="mailto:tate@ttmpainting.com" className="flex items-center hover:text-accent transition-smooth">
+              <a href="mailto:info@ttmpainting.com" className="flex items-center hover:text-accent transition-smooth">
                 <Mail className="h-4 w-4 mr-1" />
-                tate@ttmpainting.com
+                info@ttmpainting.com
               </a>
             </div>
             <div className="hidden md:flex items-center space-x-4">
