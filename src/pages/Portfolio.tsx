@@ -17,7 +17,7 @@ const projects = [
     beforeImage: whiteHouseBefore,
     afterImage: whiteHouseAfter,
     services: ["Exterior Painting", "Surface Prep", "Trim Work"],
-    afterImageClass: "object-top"
+    afterImageClass: "object-center"
   },
   {
     title: "Classic Blue Colonial",
