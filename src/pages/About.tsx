@@ -69,9 +69,9 @@ export default function About() {
             <Card className="text-center shadow-soft hover:shadow-elegant transition-smooth">
               <CardContent className="p-8">
                 <Users className="h-12 w-12 text-accent mx-auto mb-4" />
-                <h3 className="text-xl font-semibold text-primary mb-3">Community First</h3>
+                <h3 className="text-xl font-semibold text-primary mb-3">Homeowner Focused</h3>
                 <p className="text-muted-foreground">
-                  We're local homeowners too, and we treat every project like we're painting our own home.
+                  Your home is one of your most important investments. We approach every project with the same care and attention we'd want for our own homes.
                 </p>
               </CardContent>
             </Card>
