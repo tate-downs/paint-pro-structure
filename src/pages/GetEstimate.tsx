@@ -97,8 +97,8 @@ export default function GetEstimate() {
                   <Phone className="h-5 w-5 text-accent mr-3" />
                   <div>
                     <div className="font-medium">Call for Immediate Service</div>
-                    <a href="tel:8154412517" className="text-accent hover:underline">
-                      (815) 441-2517
+                    <a href="tel:6302779414" className="text-accent hover:underline">
+                      (630) 277-9414
                     </a>
                   </div>
                 </div>
