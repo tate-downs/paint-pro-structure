@@ -18,8 +18,8 @@ export default function Footer() {
               </div>
               <div className="flex items-center">
                 <Phone className="h-4 w-4 mr-2" />
-                <a href="tel:8154412517" className="hover:text-accent transition-smooth">
-                  (815) 441-2517
+                <a href="tel:6302779414" className="hover:text-accent transition-smooth">
+                  (630) 277-9414
                 </a>
               </div>
               <div className="flex items-center">
