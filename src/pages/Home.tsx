@@ -107,12 +107,14 @@ export default function Home() {
               </Badge>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Professional Painting Services in 
-              <span className="text-accent"> Chicago Suburbs</span>
+              Elevating <span className="text-accent">Craftsmanship</span> & Integrity
+              <span className="block text-2xl md:text-3xl font-medium mt-4 text-primary-foreground/90">
+                One Home at a Time
+              </span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90">
-              Transform your home with quality craftsmanship, premium materials, 
-              and a 1-3 year workmanship warranty you can trust.
+              Professional painting services in the Chicago suburbs — built on consistency, 
+              quality materials, and a 1-3 year workmanship warranty you can trust.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="accent" asChild>
