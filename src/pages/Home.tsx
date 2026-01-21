@@ -61,7 +61,7 @@ const processSteps = [
   {
     number: "04",
     title: "Quality Paint Job",
-    description: "Expert application using premium Sherwin-Williams and Benjamin Moore paints."
+    description: "Expert application using premium Sherwin-Williams paints for lasting results."
   },
   {
     number: "05",

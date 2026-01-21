@@ -53,7 +53,7 @@ const benefits = [
   {
     icon: CheckCircle,
     title: "Quality Materials",
-    description: "We use only premium Sherwin-Williams and Benjamin Moore paints for lasting results."
+    description: "We exclusively use premium Sherwin-Williams paints for lasting results."
   },
   {
     icon: Clock,
