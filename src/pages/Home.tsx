@@ -50,16 +50,21 @@ const processSteps = [
   },
   {
     number: "02",
+    title: "Design Consultation",
+    description: "We come to your home and apply color samples directly on your surfaces to help you choose the perfect color."
+  },
+  {
+    number: "03",
     title: "Professional Prep",
     description: "Thorough surface preparation ensures a lasting, beautiful finish."
   },
   {
-    number: "03",
+    number: "04",
     title: "Quality Paint Job",
     description: "Expert application using premium Sherwin-Williams and Benjamin Moore paints."
   },
   {
-    number: "04",
+    number: "05",
     title: "Final Walkthrough",
     description: "We ensure your complete satisfaction before considering the job complete."
   }
@@ -300,7 +305,7 @@ export default function Home() {
               Every project follows our systematic approach to ensure exceptional results.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
             {processSteps.map((step, index) => (
               <div key={index} className="text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-accent text-accent-foreground text-xl font-bold mb-4">
