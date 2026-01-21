@@ -28,9 +28,9 @@ const mainAreas = [
     description: "Historic towns and growing communities"
   },
   {
-    region: "Chicagoland Suburbs",
-    cities: ["Aurora", "Elgin", "Schaumburg", "Naperville", "Joliet"],
-    description: "Western and southwestern Chicago suburbs"
+    region: "Wisconsin Border",
+    cities: ["Kenosha", "Racine", "Lake Geneva", "Burlington", "Delavan"],
+    description: "Southern Wisconsin communities near the Illinois border"
   },
   {
     region: "Central Illinois",
