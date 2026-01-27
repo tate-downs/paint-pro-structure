@@ -258,8 +258,38 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Project 3 */}
-            <div className="bg-background rounded-lg shadow-medium overflow-hidden lg:col-span-2 lg:max-w-2xl lg:mx-auto">
+            {/* Project 3 - New Gray Ranch */}
+            <div className="bg-background rounded-lg shadow-medium overflow-hidden">
+              <div className="grid grid-cols-2 gap-0">
+                <div className="relative aspect-square">
+                  <img 
+                    src="/src/assets/gray-ranch-before.jpg" 
+                    alt="Ranch home before exterior painting"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute top-2 left-2 bg-muted text-muted-foreground px-2 py-1 rounded text-sm font-semibold">
+                    BEFORE
+                  </div>
+                </div>
+                <div className="relative aspect-square">
+                  <img 
+                    src="/src/assets/gray-ranch-after.jpg" 
+                    alt="Beautiful gray ranch home after painting"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute top-2 left-2 bg-success text-success-foreground px-2 py-1 rounded text-sm font-semibold">
+                    AFTER
+                  </div>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">Modern Gray Ranch Transformation</h3>
+                <p className="text-muted-foreground">Complete exterior transformation from faded beige to stunning modern gray with premium Sherwin-Williams paint.</p>
+              </div>
+            </div>
+
+            {/* Project 4 */}
+            <div className="bg-background rounded-lg shadow-medium overflow-hidden">
               <div className="grid grid-cols-2 gap-0">
                 <div className="relative aspect-square">
                   <img 

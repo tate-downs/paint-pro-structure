@@ -9,8 +9,18 @@ import greenGarageAfter from "@/assets/green-garage-after.jpg";
 import greenGarageBefore from "@/assets/green-garage-before.jpg";
 import whiteHouseAfter from "@/assets/white-house-after.jpg";
 import whiteHouseBefore from "@/assets/white-house-before.jpg";
+import grayRanchBefore from "@/assets/gray-ranch-before.jpg";
+import grayRanchAfter from "@/assets/gray-ranch-after.jpg";
 
 const projects = [
+  {
+    title: "Modern Gray Ranch Transformation",
+    description: "Complete exterior transformation from faded beige to stunning modern gray with Sherwin-Williams premium paint.",
+    beforeImage: grayRanchBefore,
+    afterImage: grayRanchAfter,
+    services: ["Exterior Painting", "Surface Prep", "Color Consultation"],
+    afterImageClass: "object-center"
+  },
   {
     title: "Modern White Ranch Home",
     description: "Complete exterior transformation with premium Sherwin Williams paint, featuring fresh white siding and black trim accents.",
