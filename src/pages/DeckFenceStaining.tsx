@@ -76,7 +76,7 @@ export default function DeckFenceStaining() {
               <Button size="lg" variant="accent" asChild>
                 <Link to="/get-estimate">Get Free Staining Estimate</Link>
               </Button>
-              <Button size="lg" variant="outline" asChild className="border-white text-white hover:bg-white hover:text-primary">
+              <Button size="lg" variant="outline-light" asChild>
                 <a href="tel:6302779414">Call (630) 277-9414</a>
               </Button>
             </div>
