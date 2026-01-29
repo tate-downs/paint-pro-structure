@@ -411,14 +411,9 @@ export default function Home() {
           <p className="text-xl mb-8 text-primary-foreground/90">
             Join 50+ satisfied customers throughout the Chicago suburbs and surrounding areas.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" variant="accent" asChild>
-              <Link to="/get-estimate">Start Your Project Today</Link>
-            </Button>
-            <Button size="lg" variant="ghost" asChild className="text-white hover:bg-white/10">
-              <Link to="/get-estimate">Get Started Today</Link>
-            </Button>
-          </div>
+          <Button size="lg" variant="accent" asChild>
+            <Link to="/get-estimate">Start Your Project Today</Link>
+          </Button>
         </div>
       </section>
     </div>

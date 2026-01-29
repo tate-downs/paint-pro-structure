@@ -86,14 +86,9 @@ export default function ExteriorPainting() {
               Professional exterior painting services using weather-resistant materials 
               designed to withstand Illinois weather and protect your investment.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="accent" asChild>
-                <Link to="/get-estimate">Get Free Exterior Estimate</Link>
-              </Button>
-              <Button size="lg" variant="ghost" asChild className="text-white hover:bg-white/10">
-                <Link to="/get-estimate">Get Your Quote</Link>
-              </Button>
-            </div>
+            <Button size="lg" variant="accent" asChild>
+              <Link to="/get-estimate">Get Free Exterior Estimate</Link>
+            </Button>
           </div>
         </div>
       </section>
