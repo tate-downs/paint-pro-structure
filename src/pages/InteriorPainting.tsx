@@ -74,7 +74,7 @@ export default function InteriorPainting() {
               <Button size="lg" variant="accent" asChild>
                 <Link to="/get-estimate">Get Free Room Estimate</Link>
               </Button>
-              <Button size="lg" variant="outline" asChild className="border-white text-white hover:bg-white hover:text-primary">
+              <Button size="lg" variant="outline-light" asChild>
                 <Link to="/get-estimate">Free Color Consultation</Link>
               </Button>
             </div>
