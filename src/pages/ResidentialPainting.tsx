@@ -85,14 +85,9 @@ export default function ResidentialPainting() {
               From single rooms to whole-home makeovers, we bring your vision to life with 
               exceptional craftsmanship and attention to detail.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="accent" asChild>
-                <Link to="/get-estimate">Get Free Estimate</Link>
-              </Button>
-              <Button size="lg" variant="ghost" asChild className="text-white hover:bg-white/10">
-                <Link to="/get-estimate">Get Your Quote</Link>
-              </Button>
-            </div>
+            <Button size="lg" variant="accent" asChild>
+              <Link to="/get-estimate">Get Free Estimate</Link>
+            </Button>
           </div>
         </div>
       </section>
