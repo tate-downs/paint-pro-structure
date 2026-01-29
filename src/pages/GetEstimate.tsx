@@ -106,8 +106,8 @@ export default function GetEstimate() {
                   <Mail className="h-5 w-5 text-accent mr-3" />
                   <div>
                     <div className="font-medium">Email Us</div>
-                    <a href="mailto:tate@ttmpainting.com" className="text-accent hover:underline">
-                      tate@ttmpainting.com
+                    <a href="mailto:info@ttmpainting.com" className="text-accent hover:underline">
+                      info@ttmpainting.com
                     </a>
                   </div>
                 </div>
