@@ -180,9 +180,9 @@ export default function Portfolio() {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <blockquote className="text-2xl md:text-3xl font-medium text-muted-foreground mb-8 italic">
-              "TTM Painting transformed our home's exterior completely. The attention to detail and quality of the Sherwin Williams paint they used is evident in every brushstroke. Highly recommend!"
+              "I used TTM Painting last summer and they did amazing job on my garage. Everything turned out exactly how I wanted. The crew was on time, professional, and left everything spotless. I would definitely use them again."
             </blockquote>
-            <div className="text-lg font-semibold">Happy Illinois Homeowner</div>
+            <div className="text-lg font-semibold">Satisfied Customer</div>
           </div>
         </div>
       </section>

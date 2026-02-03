@@ -8,7 +8,6 @@ import {
   Award, 
   Users, 
   CheckCircle, 
-  Star,
   Home as HomeIcon,
   Building,
   Brush,
@@ -70,26 +69,6 @@ const processSteps = [
   }
 ];
 
-const testimonials = [
-  {
-    name: "Sarah Johnson",
-    location: "Chicago Suburbs",
-    text: "TTM Painting transformed our home inside and out. Professional, clean, and the results exceeded our expectations!",
-    rating: 5
-  },
-  {
-    name: "Mike Chen",
-    location: "Rock Falls, IL",
-    text: "Great communication, fair pricing, and excellent workmanship. Our kitchen cabinets look brand new!",
-    rating: 5
-  },
-  {
-    name: "Lisa Martinez",
-    location: "Dixon, IL",
-    text: "Very impressed with their attention to detail and how clean they kept our home during the project.",
-    rating: 5
-  }
-];
 
 export default function Home() {
   return (
@@ -349,35 +328,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">What Our Customers Say</h2>
-            <p className="text-xl text-muted-foreground">
-              Don't just take our word for it - hear from satisfied customers across the Chicago suburbs and surrounding areas.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <Card key={index} className="shadow-soft">
-                <CardContent className="p-6">
-                  <div className="flex mb-4">
-                    {[...Array(testimonial.rating)].map((_, i) => (
-                      <Star key={i} className="h-5 w-5 text-accent fill-current" />
-                    ))}
-                  </div>
-                  <p className="text-muted-foreground mb-4">"{testimonial.text}"</p>
-                  <div>
-                    <div className="font-semibold">{testimonial.name}</div>
-                    <div className="text-sm text-muted-foreground">{testimonial.location}</div>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Jobber Form Section */}
       <section className="py-20">
