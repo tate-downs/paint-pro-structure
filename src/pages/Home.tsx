@@ -90,12 +90,23 @@ export default function Home() {
                 Licensed • Bonded • Insured in Illinois
               </Badge>
             </div>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+            <h1 className="text-4xl md:text-6xl font-bold mb-4">
               Elevating <span className="text-accent">Craftsmanship</span> & Integrity
-              <span className="block text-2xl md:text-3xl font-medium mt-4 text-primary-foreground/90">
-                One Home at a Time
-              </span>
             </h1>
+            <div className="max-w-md mx-auto mb-4">
+              <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-medium">
+                <iframe
+                  className="absolute inset-0 w-full h-full"
+                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                  title="TTM Painting Video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+            <p className="text-2xl md:text-3xl font-medium mb-6 text-primary-foreground/90">
+              One Home at a Time
+            </p>
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90">
               Professional painting services in the Chicago suburbs — built on consistency, 
               quality materials, and a 1-3 year workmanship warranty you can trust.
@@ -112,23 +123,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Video Section */}
-      <section className="py-16 bg-muted">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto">
-            <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-medium bg-foreground/10">
-              {/* Replace the src below with your YouTube embed URL */}
-              <iframe
-                className="absolute inset-0 w-full h-full"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                title="TTM Painting Video"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       {/* Trust Strip */}
       <section className="gradient-trust py-12">
