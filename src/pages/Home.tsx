@@ -93,7 +93,10 @@ export default function Home() {
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
               Elevating <span className="text-accent">Craftsmanship</span> & Integrity
             </h1>
-            <div className="max-w-md mx-auto mb-4">
+            <p className="text-2xl md:text-3xl font-medium mb-4 text-primary-foreground/90">
+              One Home at a Time
+            </p>
+            <div className="max-w-md mx-auto mb-6">
               <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-medium">
                 <iframe
                   className="absolute inset-0 w-full h-full"
@@ -104,9 +107,6 @@ export default function Home() {
                 />
               </div>
             </div>
-            <p className="text-2xl md:text-3xl font-medium mb-6 text-primary-foreground/90">
-              One Home at a Time
-            </p>
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90">
               Professional painting services in the Chicago suburbs — built on consistency, 
               quality materials, and a 1-3 year workmanship warranty you can trust.
