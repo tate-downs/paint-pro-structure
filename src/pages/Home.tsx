@@ -112,6 +112,24 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Video Section */}
+      <section className="py-16 bg-muted">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-medium bg-foreground/10">
+              {/* Replace the src below with your YouTube embed URL */}
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title="TTM Painting Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Trust Strip */}
       <section className="gradient-trust py-12">
         <div className="container mx-auto px-4">
